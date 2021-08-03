@@ -39,7 +39,7 @@ int main(void) {
   };
   t_struct* ptr;
 
-  // Retrieving the pointer to the structure `test` given a pointer to on of its member.
+  // Retrieving the pointer to the structure `test` given a pointer to one of its member.
   ptr = get_struct_ptr(&test.member);
   
   if (ptr == &test) {
