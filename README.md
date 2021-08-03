@@ -1,6 +1,6 @@
 <br /><br /><br />
 <p align="center">
-  <img width="700" src="assets/arithmetics.png" />
+  <img width="700" src="assets/arithmetics.jpg" />
 </p>
 <br /><br />
 
