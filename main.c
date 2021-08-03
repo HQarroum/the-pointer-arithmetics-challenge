@@ -37,7 +37,6 @@ int main(void) {
     .member = 42,
     .c = 0x42
   };
-  ;
 
   // Retrieving the pointer to the structure `test` given a pointer to one of its member.
   t_struct* ptr = get_struct_ptr(&test.member);
