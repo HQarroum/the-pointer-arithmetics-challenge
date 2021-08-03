@@ -40,7 +40,7 @@ t_struct* get_struct_ptr(void* member);
 
 > For a full explanation of the solution, please see the [deep-dive article on Medium]().
 
-This repository contains a working solution that should be working with all ANSI/C compilers.
+This repository contains a working solution that should be working with all ANSI/C compilers. It currently has been tested on GCC 4.6, GCC 10 and Clang 12.
 
 In our solution, the implemented `get_struct_ptr` function can be used as follow :
 
