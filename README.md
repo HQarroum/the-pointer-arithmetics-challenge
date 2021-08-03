@@ -38,6 +38,8 @@ t_struct* get_struct_ptr(void* member);
 
 ## 💡 The Solution
 
+> For a full explanation of the solution, please see the [deep-dive article on Medium]().
+
 This repository contains a working solution that should be working with all ANSI/C compilers.
 
 In our solution, the implemented `get_struct_ptr` function can be used as follow :
@@ -49,20 +51,17 @@ int main(void) {
     .member = 42,
     .c = 0x42
   };
-  t_struct* ptr;
 
   // Retrieving the pointer to the structure `test` given a pointer to one of its member.
-  ptr = get_struct_ptr(&test.member);
+  t_struct* ptr = get_struct_ptr(&test.member);
   
   if (ptr == &test) {
-    printf("Address of the structure : %p, Value of member : %d\n", ptr, ptr->member);
+    // It works !
   }
   
   return (0);
 }
 ```
-
-For a full explanation of the solution, please see the [deep-dive article on Medium]().
 
 ## 👀 See also
 

@@ -37,10 +37,10 @@ int main(void) {
     .member = 42,
     .c = 0x42
   };
-  t_struct* ptr;
+  ;
 
   // Retrieving the pointer to the structure `test` given a pointer to one of its member.
-  ptr = get_struct_ptr(&test.member);
+  t_struct* ptr = get_struct_ptr(&test.member);
   
   if (ptr == &test) {
     printf("Address of the structure : %p, Value of member : %d\n", ptr, ptr->member);
