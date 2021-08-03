@@ -12,6 +12,7 @@ Current version: **1.0.0**
 ## 📋 Table of content
 
 - [The Challenge](#-the-challenge)
+- [The Solution](#-the-solution)
 - [See also](#-see-also)
 
 ## 🚀 The Challenge
