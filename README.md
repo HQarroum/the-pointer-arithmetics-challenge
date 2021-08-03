@@ -11,11 +11,10 @@ Current version: **1.0.0**
 
 ## 📋 Table of content
 
-- [Introduction](#-introduction)
-- [Usage](#-usage)]
+- [The Challenge](#-the-challenge)
 - [See also](#-see-also)
 
-## 🚀 Introduction
+## 🚀 The Challenge
 
 > I recently particpated to a programming contest and came across an interesting challenge related to pointer arithmetic in C. I decided to create a write-up on the subject to expose the problem and the proposed solution.
 
@@ -37,10 +36,14 @@ We need to provide a function that takes a pointer to a member of a structure an
 t_struct* get_struct_ptr(void* member);
 ```
 
-## 🛠 Usage
+### Solution
 
+This repository contains a working solution that should be working with all compilers. 
 
+For an explanation of the solution, please see the [deep-dive article on Medium]().
 
 ## 👀 See also
 
 - The [`offsetof()`](http://en.wikipedia.org/wiki/Offsetof) macro.
+- The [deep-dive article on Medium]().
+
