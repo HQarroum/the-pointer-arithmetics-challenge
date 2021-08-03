@@ -36,13 +36,7 @@ We need to provide a function that takes a pointer to a member of a structure an
 t_struct* get_struct_ptr(void* member);
 ```
 
-## 💡 The Solution
-
-> For a full explanation of the solution, please see the [deep-dive article on Medium]().
-
-This repository contains a working solution that should be working with all ANSI/C compilers. It currently has been tested on GCC 4.6, GCC 10 and Clang 12.
-
-In our solution, the implemented `get_struct_ptr` function can be used as follow :
+The `get_struct_ptr` function is expected to be used as in the following example:
 
 ```c
 int main(void) {
@@ -51,20 +45,18 @@ int main(void) {
     .member = 42,
     .c = 0x42
   };
-
-  // Retrieving the pointer to the structure `test` given a pointer to one of its member.
   t_struct* ptr = get_struct_ptr(&test.member);
-  
-  if (ptr == &test) {
-    // It works !
-  }
-  
-  return (0);
+  return (ptr == &test ? EXIT_SUCCESS : EXIT_FAILURE);
 }
 ```
+
+## 💡 The Solution
+
+> For a full explanation of the solution, please see the [deep-dive article on Medium]().
+
+This repository contains a working solution that should be working with all ANSI/C compilers. It currently has been tested on GCC 4.6, GCC 10 and Clang 12.
 
 ## 👀 See also
 
 - The [`offsetof()`](http://en.wikipedia.org/wiki/Offsetof) macro.
 - The [deep-dive article on Medium]().
-
