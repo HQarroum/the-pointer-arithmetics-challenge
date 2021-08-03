@@ -37,7 +37,7 @@ We need to provide a function that takes a pointer to a member of a structure an
 t_struct* get_struct_ptr(void* member);
 ```
 
-The `get_struct_ptr` function is expected to be used as in the following example:
+The `get_struct_ptr` function is expected to be used as in the following example by the testing application provided during the contest.
 
 ```c
 int main(void) {
@@ -53,11 +53,11 @@ int main(void) {
 
 ## 💡 The Solution
 
-> For a full explanation of the solution, please see the [deep-dive article on Medium]().
+> For a full explanation of the solution, please see the [deep-dive article on Medium](https://medium.com/@HalimQarroum/the-pointer-arithmetics-challenge-42c5a8d58314).
 
-This repository contains a working solution that should be working with all ANSI/C compilers. It currently has been tested on GCC 4.6, GCC 10 and Clang 12.
+This repository contains a working solution that should be working with all ANSI/C compilers. It currently has been tested on `GCC 4.6`, `GCC 10` and `Clang 12`.
 
 ## 👀 See also
 
 - The [`offsetof()`](http://en.wikipedia.org/wiki/Offsetof) macro.
-- The [deep-dive article on Medium]().
+- The [deep-dive article on Medium](https://medium.com/@HalimQarroum/the-pointer-arithmetics-challenge-42c5a8d58314).
