@@ -3,7 +3,7 @@
   <img width="750" src="assets/arithmetics.jpg" />
   <br><br>
   <h2 align="center">The Pointer Arithmetics Challenge</h2>
-  <p align="center">A bite-sized C coding brain teaser.</p>
+  <p align="center">A <em>byte-sized</em> C coding brain teaser.</p>
   <p align="center">
     <a href="https://github.com/codespaces/new/HQarroum/the-pointer-arithmetics-challenge"><img alt="Github Codespaces" src="https://github.com/codespaces/badge.svg" /></a>
   </p>
